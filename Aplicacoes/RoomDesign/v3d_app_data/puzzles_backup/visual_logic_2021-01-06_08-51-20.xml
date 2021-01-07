@@ -1,0 +1,341 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="875" scrolly="428" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="940" scrolly="211" scale="1">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="95mwzK0cbHKX}R1*mv^-" type="">objetos</variable>
+      <variable id="auSf(vj7p?:-W}XAWQ|^" type="">materiais</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="allObjectList" id="(80NNdG7~.W|:Z9:4h-V" x="-410" y="-410"/>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id=".UjoRa]{B+unR5n!{D~L" x="-830" y="-350">
+      <field name="VAR" id="95mwzK0cbHKX}R1*mv^-">objetos</field>
+      <value name="VALUE">
+        <block type="getObjectsFrom" id="YyW2uY(+:5nzW`P5*,4_">
+          <field name="TYPE">ALL</field>
+          <value name="OBJ">
+            <block type="groupList" id="Ih,l4u{-Jup`w={[uP`y">
+              <field name="FIELDNAME">Objetos</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <next>
+        <block type="hide" id=".|$NQm#;.T-+}Tzcr;Ze">
+          <value name="VALUE">
+            <shadow type="objectList" id="G$h@yc2/s2strSFs}#;g">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="variables_get" id="G8:^a:a?z-3qR-:rh/m^">
+              <field name="VAR" id="95mwzK0cbHKX}R1*mv^-">objetos</field>
+            </block>
+          </value>
+          <next>
+            <block type="show" id="8lq.^(-kfp%tU{8}L*@G">
+              <value name="VALUE">
+                <shadow type="objectList" id="Ne)PaVss|kES=uTV}Ds0">
+                  <field name="FIELDNAME">Chao.001</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="whenClicked" id="61e~pY?Iq6*G61fnz$)[">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                  <field name="X_RAY">FALSE</field>
+                  <field name="DOUBLE_CLICK">FALSE</field>
+                  <field name="LEFT_BUTTON">TRUE</field>
+                  <field name="MIDDLE_BUTTON">TRUE</field>
+                  <field name="RIGHT_BUTTON">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="objectList" id="!sJE:TAX8J8~0XjE=c2y">
+                      <field name="FIELDNAME">B_mat1</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="hide" id="6`Ig_tUjZ%=,l4(qPT=M">
+                      <value name="VALUE">
+                        <shadow type="objectList">
+                          <field name="FIELDNAME">&lt;none&gt;</field>
+                        </shadow>
+                        <block type="variables_get" id="aw@%_MfEpZd:__ZtmiE*">
+                          <field name="VAR" id="95mwzK0cbHKX}R1*mv^-">objetos</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="show" id="UZpUppkz-;~WDpoMF`O?">
+                          <value name="VALUE">
+                            <shadow type="objectList" id="Nt2(0px5E.Hom7RR6+_g">
+                              <field name="FIELDNAME">Chao.001</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="whenClicked" id="Yl^y,e#.yL05+y!sj4*D">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                      <field name="X_RAY">FALSE</field>
+                      <field name="DOUBLE_CLICK">FALSE</field>
+                      <field name="LEFT_BUTTON">TRUE</field>
+                      <field name="MIDDLE_BUTTON">TRUE</field>
+                      <field name="RIGHT_BUTTON">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="objectList" id="d.UXUg(LLq,n]VJFLNx=">
+                          <field name="FIELDNAME">B_mat2</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="hide" id="BXdabh_w^6H~T5xkc/1+">
+                          <value name="VALUE">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="variables_get" id="70m6Rr)QQ9(YFIs8Yq;8">
+                              <field name="VAR" id="95mwzK0cbHKX}R1*mv^-">objetos</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="show" id="hT5%,2_f%[c!8HNXT7CZ">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="p5=zQJ):KyU=LrM2=~vM">
+                                  <field name="FIELDNAME">Chao.002</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="whenClicked" id="A`^(yFTcMlbboqo!(f97">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                          <field name="X_RAY">FALSE</field>
+                          <field name="DOUBLE_CLICK">FALSE</field>
+                          <field name="LEFT_BUTTON">TRUE</field>
+                          <field name="MIDDLE_BUTTON">TRUE</field>
+                          <field name="RIGHT_BUTTON">TRUE</field>
+                          <value name="VALUE">
+                            <shadow type="objectList" id="^}8LVI8~YES8K|PWqp[8">
+                              <field name="FIELDNAME">B_mat3</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="hide" id="`Rb33/kO:e:fme4@q)Q2">
+                              <value name="VALUE">
+                                <shadow type="objectList">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="variables_get" id="cdFxzCxYK-4uR6DR@oa;">
+                                  <field name="VAR" id="95mwzK0cbHKX}R1*mv^-">objetos</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="show" id="Isn=W}|/Z#~w[GlsP#m^">
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="Y|#~LnK^m4EKB5Rh~UCr">
+                                      <field name="FIELDNAME">Chao.003</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="execScript" id="qh0K%KLf:~nJC_mt54$A">
+                              <value name="TEXT">
+                                <shadow type="textMultiline" id="xX9?8u2q,^[_#zL?_Sy^">
+                                  <field name="HIGHLIGHT_MODE">javascript</field>
+                                  <field name="TEXT">// Built-in variables: app, v3d, VARS, PROC&#10;app.scene.traverse(function(obj) {&#10;    obj.material = new v3d.MeshBasicMaterial({&#10;        color: new v3d.Color(Math.random(), Math.random(), Math.random())&#10;    });&#10;});</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="replaceTexture" id="$09GmcTtQxD)#`))n5wn" x="-450" y="-250">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+      <field name="OLD_TEX_NAME">&lt;no textures&gt;</field>
+      <value name="MATERIAL">
+        <shadow type="materialList" id=":#1D0K#!flj;-FSvq{$W">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+      </value>
+      <value name="NEW_TEX_URL">
+        <shadow type="text" id="]JNKqlE:G#]QchMy,br$">
+          <field name="TEXT">./newTexture.png</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="YmEhp.k1F[WZ5c;9^^({" x="-210" y="-190">
+      <field name="VAR" id="auSf(vj7p?:-W}XAWQ|^">materiais</field>
+      <value name="VALUE">
+        <block type="getObjectMaterial" id="ZG#8l2]hnF[S}?tQ|Zv0">
+          <value name="VALUE">
+            <shadow type="objectList" id="#AZQu0Esev3{yqDt,_#}">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="groupList" id="C$7b)%u`3e}|e*79m}GS">
+              <field name="FIELDNAME">Botoes</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <next>
+        <block type="ssr" id="uk0UFmN9T%1K=Hv5Q0kA">
+          <field name="TYPE">REFLECT</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="1Rl@X?OC5l9(u?x`G*y#">
+              <field name="FIELDNAME">M_2</field>
+            </shadow>
+          </value>
+          <value name="STEPS">
+            <shadow type="number_slider" id="8,TRMFtg6j?;+aKZgz1a">
+              <field name="NUM" min="0" max="1000" step="1">60</field>
+            </shadow>
+          </value>
+          <value name="STRIDE">
+            <shadow type="number_slider" id="[h^mO])_i/:/]4g,Va*^">
+              <field name="NUM" min="0" max="10" step="0.1">5</field>
+            </shadow>
+          </value>
+          <value name="BINARY_SEARCH_STEPS">
+            <shadow type="number_slider" id="YHH[iP]2#+v8Nx1:`@4x">
+              <field name="NUM" min="0" max="10" step="0.1">4</field>
+            </shadow>
+          </value>
+          <value name="THICKNESS">
+            <shadow type="number_slider" id="3]bE3X;km8Z,)|0ipXO*">
+              <field name="NUM" min="0" max="0.1" step="0.01">0.01</field>
+            </shadow>
+          </value>
+          <value name="MAX_DISTANCE">
+            <shadow type="number_slider" id="aA+BP(u_~P;-cFux#,PA">
+              <field name="NUM" min="0" max="1000" step="1">100</field>
+            </shadow>
+          </value>
+          <value name="RESOLUTION">
+            <shadow type="number_slider" id="V:U?0E`BZNT@V/ar,ZpT">
+              <field name="NUM" min="0" max="10" step="0.1">0.5</field>
+            </shadow>
+          </value>
+          <value name="JITTER">
+            <shadow type="number_slider" id="iqcJVOtkRh(|Qk#!ogt:">
+              <field name="NUM" min="0" max="10" step="0.1">1</field>
+            </shadow>
+          </value>
+          <value name="RENDER_AFTER">
+            <shadow type="objectList" id="#m;QnH}*miZ+]-^v1#J4">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+          </value>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_get" id="ntIb6;{C76AVBH2fU8lh" x="-630" y="110">
+      <field name="VAR" id="auSf(vj7p?:-W}XAWQ|^">materiais</field>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setMaterialColor" id="^W!0MV|W7$aLm[!$=B`M" x="-650" y="230">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" flexcolinput="false" usecsscolor="false"></mutation>
+      <field name="MAT_COL_NAME">&lt;no colors&gt;</field>
+      <value name="MATERIAL">
+        <shadow type="materialList" id="F97%@5FNSK;P.9iya*z`">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+      </value>
+      <value name="R">
+        <shadow type="math_number" id="Ikm.:#8!]lf%{pLUL2CS">
+          <field name="NUM">0.5</field>
+        </shadow>
+      </value>
+      <value name="G">
+        <shadow type="math_number" id="Q@L={zFjc[2w8~!P,},c">
+          <field name="NUM">0.5</field>
+        </shadow>
+      </value>
+      <value name="B">
+        <shadow type="math_number" id="J6@7SJ~G?e)a5J7U:Q$J">
+          <field name="NUM">0.5</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenDraggedOver" id="?_H:;08+:P^$a-ZTyRSF" x="-830" y="330">
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="?1NO:/1~UpgL)QtAJl5P">
+          <field name="FIELDNAME">Fogao</field>
+        </shadow>
+      </value>
+      <statement name="DO_MOVE">
+        <block type="dragMove" id="OM79/KpS65EwTF-jx*;G">
+          <field name="MODE">XY</field>
+          <value name="TARGETOBJ">
+            <shadow type="objectList" id="PFKAs6lfsf#;dfz,UqT{">
+              <field name="FIELDNAME">Fogao</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenDraggedOver" id="E`d?MElI;_[HL%X[3)x[">
+          <field name="X_RAY">FALSE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="|^j},dW@/4ktb]MF.,)W">
+              <field name="FIELDNAME">Mesa</field>
+            </shadow>
+          </value>
+          <statement name="DO_MOVE">
+            <block type="dragMove" id="b%#qV4L`ojjTc$VmOG(r">
+              <field name="MODE">XY</field>
+              <value name="TARGETOBJ">
+                <shadow type="objectList" id="1b)o*sTMTc$#*Nnn(DIJ">
+                  <field name="FIELDNAME">Mesa</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setMaterialColor" id=",(M$WKxPXDkp*it3OW{3" x="-330" y="310">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" flexcolinput="false" usecsscolor="false"></mutation>
+      <field name="MAT_COL_NAME">&lt;no colors&gt;</field>
+      <value name="MATERIAL">
+        <shadow type="materialList" id="R;Flqrsh%fZWD^}C-keU">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+      </value>
+      <value name="R">
+        <shadow type="math_number" id="YdMo_hHhbP%fVi4vM*6A">
+          <field name="NUM">0.5</field>
+        </shadow>
+      </value>
+      <value name="G">
+        <shadow type="math_number" id="}^sG@5ViF35cVMr(npkj">
+          <field name="NUM">0.5</field>
+        </shadow>
+      </value>
+      <value name="B">
+        <shadow type="math_number" id="DYym.v[7~ChwYbrMII*@">
+          <field name="NUM">0.5</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="getMaterialColor" id="Lq$)u*:0sgF;/_Llh1.f" x="-330" y="410">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" flexcolinput="false"></mutation>
+      <field name="MAT_COL_NAME">&lt;no colors&gt;</field>
+      <field name="COORD">R</field>
+      <value name="MATERIAL">
+        <shadow type="materialList" id="$:82[`4zB(lNq?/_|0W.">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1225.23046875" viewport-y="28" viewport-w="676.746" viewport-h="635.422" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

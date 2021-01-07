@@ -1,0 +1,305 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="init" type="InitTab" active="false" scrollx="875" scrolly="428" scale="0.9"></tab>
+  <tab name="main" type="MainTab" active="true" scrollx="1098.6691668116437" scrolly="-60.610601079935975" scale="0.9864316453683308">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="95mwzK0cbHKX}R1*mv^-" type="">objetos</variable>
+      <variable id="8s$3nxJg2!|$`!188brE" type="">movelSelecionado</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="allObjectList" id="(80NNdG7~.W|:Z9:4h-V" x="-410" y="-410"/>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id=".UjoRa]{B+unR5n!{D~L" x="-830" y="-350">
+      <field name="VAR" id="95mwzK0cbHKX}R1*mv^-">objetos</field>
+      <value name="VALUE">
+        <block type="getObjectsFrom" id="YyW2uY(+:5nzW`P5*,4_">
+          <field name="TYPE">ALL</field>
+          <value name="OBJ">
+            <block type="groupList" id="Ih,l4u{-Jup`w={[uP`y">
+              <field name="FIELDNAME">Objetos</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <next>
+        <block type="hide" id=".|$NQm#;.T-+}Tzcr;Ze">
+          <value name="VALUE">
+            <shadow type="objectList" id="G$h@yc2/s2strSFs}#;g">
+              <field name="FIELDNAME">&lt;none&gt;</field>
+            </shadow>
+            <block type="variables_get" id="G8:^a:a?z-3qR-:rh/m^">
+              <field name="VAR" id="95mwzK0cbHKX}R1*mv^-">objetos</field>
+            </block>
+          </value>
+          <next>
+            <block type="show" id="8lq.^(-kfp%tU{8}L*@G">
+              <value name="VALUE">
+                <shadow type="objectList" id="Ne)PaVss|kES=uTV}Ds0">
+                  <field name="FIELDNAME">Chao.001</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="playAnimationAdv" id=":~}/0%J#IJ,r)W]:X|DU">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="LXH3kybIjM=*emZ=$e16">
+                      <field name="FIELDNAME">Chao.001</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="whenClicked" id="61e~pY?Iq6*G61fnz$)[">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                      <field name="X_RAY">FALSE</field>
+                      <field name="DOUBLE_CLICK">FALSE</field>
+                      <field name="LEFT_BUTTON">TRUE</field>
+                      <field name="MIDDLE_BUTTON">TRUE</field>
+                      <field name="RIGHT_BUTTON">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="objectList" id="!sJE:TAX8J8~0XjE=c2y">
+                          <field name="FIELDNAME">B_mat1</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="hide" id="6`Ig_tUjZ%=,l4(qPT=M">
+                          <value name="VALUE">
+                            <shadow type="objectList">
+                              <field name="FIELDNAME">&lt;none&gt;</field>
+                            </shadow>
+                            <block type="variables_get" id="aw@%_MfEpZd:__ZtmiE*">
+                              <field name="VAR" id="95mwzK0cbHKX}R1*mv^-">objetos</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="show" id="UZpUppkz-;~WDpoMF`O?">
+                              <value name="VALUE">
+                                <shadow type="objectList" id="Nt2(0px5E.Hom7RR6+_g">
+                                  <field name="FIELDNAME">Chao.001</field>
+                                </shadow>
+                              </value>
+                              <next>
+                                <block type="playAnimationAdv" id="g2ec7y6]#WYI0%5A6I9*">
+                                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                  <field name="REVERSED">FALSE</field>
+                                  <field name="LOOP">LoopOnce</field>
+                                  <value name="VALUE">
+                                    <shadow type="animationList" id="q^x|D-mAh:r`Vn$/qa?{">
+                                      <field name="FIELDNAME">Chao.001</field>
+                                    </shadow>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                      <next>
+                        <block type="whenClicked" id="Yl^y,e#.yL05+y!sj4*D">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                          <field name="X_RAY">FALSE</field>
+                          <field name="DOUBLE_CLICK">FALSE</field>
+                          <field name="LEFT_BUTTON">TRUE</field>
+                          <field name="MIDDLE_BUTTON">TRUE</field>
+                          <field name="RIGHT_BUTTON">TRUE</field>
+                          <value name="VALUE">
+                            <shadow type="objectList" id="d.UXUg(LLq,n]VJFLNx=">
+                              <field name="FIELDNAME">B_mat2</field>
+                            </shadow>
+                          </value>
+                          <statement name="DO">
+                            <block type="hide" id="BXdabh_w^6H~T5xkc/1+">
+                              <value name="VALUE">
+                                <shadow type="objectList">
+                                  <field name="FIELDNAME">&lt;none&gt;</field>
+                                </shadow>
+                                <block type="variables_get" id="70m6Rr)QQ9(YFIs8Yq;8">
+                                  <field name="VAR" id="95mwzK0cbHKX}R1*mv^-">objetos</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="show" id="hT5%,2_f%[c!8HNXT7CZ">
+                                  <value name="VALUE">
+                                    <shadow type="objectList" id="p5=zQJ):KyU=LrM2=~vM">
+                                      <field name="FIELDNAME">Chao.002</field>
+                                    </shadow>
+                                  </value>
+                                  <next>
+                                    <block type="playAnimationAdv" id="A*O,HhE+E`a+90My*k/_">
+                                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                      <field name="REVERSED">FALSE</field>
+                                      <field name="LOOP">LoopOnce</field>
+                                      <value name="VALUE">
+                                        <shadow type="animationList" id="j`G]jcDEAb%1EPcg.al.">
+                                          <field name="FIELDNAME">Chao.002</field>
+                                        </shadow>
+                                      </value>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                          <next>
+                            <block type="whenClicked" id="A`^(yFTcMlbboqo!(f97">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                              <field name="X_RAY">FALSE</field>
+                              <field name="DOUBLE_CLICK">FALSE</field>
+                              <field name="LEFT_BUTTON">TRUE</field>
+                              <field name="MIDDLE_BUTTON">TRUE</field>
+                              <field name="RIGHT_BUTTON">TRUE</field>
+                              <value name="VALUE">
+                                <shadow type="objectList" id="^}8LVI8~YES8K|PWqp[8">
+                                  <field name="FIELDNAME">B_mat3</field>
+                                </shadow>
+                              </value>
+                              <statement name="DO">
+                                <block type="hide" id="`Rb33/kO:e:fme4@q)Q2">
+                                  <value name="VALUE">
+                                    <shadow type="objectList">
+                                      <field name="FIELDNAME">&lt;none&gt;</field>
+                                    </shadow>
+                                    <block type="variables_get" id="cdFxzCxYK-4uR6DR@oa;">
+                                      <field name="VAR" id="95mwzK0cbHKX}R1*mv^-">objetos</field>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="show" id="Isn=W}|/Z#~w[GlsP#m^">
+                                      <value name="VALUE">
+                                        <shadow type="objectList" id="Y|#~LnK^m4EKB5Rh~UCr">
+                                          <field name="FIELDNAME">Chao.003</field>
+                                        </shadow>
+                                      </value>
+                                      <next>
+                                        <block type="playAnimationAdv" id="0z]`{-e|gVg6Auss`4Eh">
+                                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                                          <field name="REVERSED">FALSE</field>
+                                          <field name="LOOP">LoopOnce</field>
+                                          <value name="VALUE">
+                                            <shadow type="animationList" id="QXrwJ.9CU5^l$Ra5oF]V">
+                                              <field name="FIELDNAME">Chao.003</field>
+                                            </shadow>
+                                          </value>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </statement>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="controls_if" id="Sv,0_e$Ldqq_}M6EP)FU" x="-810" y="250">
+      <value name="IF0">
+        <block type="logic_compare" id="Qc_ZIERc.,}yaZ+8i`AP">
+          <field name="OP">EQ</field>
+          <value name="A">
+            <block type="variables_get" id="kI{IN[-[XXGK|HmM,WH(">
+              <field name="VAR" id="8s$3nxJg2!|$`!188brE">movelSelecionado</field>
+            </block>
+          </value>
+          <value name="B">
+            <block type="logic_boolean" id="WiP~v@)n*%guwY~3@3EE">
+              <field name="BOOL">FALSE</field>
+            </block>
+          </value>
+        </block>
+      </value>
+      <statement name="DO0">
+        <block type="whenClicked" id="3^Sj-{dJcOLb/X4gFVFT">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="#%?A!TFnaM=]NCCt5fIF">
+              <field name="FIELDNAME">Fogao</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="variables_set" id="I~19I^z$jy_/:UzFlM;7">
+              <field name="VAR" id="8s$3nxJg2!|$`!188brE">movelSelecionado</field>
+              <value name="VALUE">
+                <block type="logic_boolean" id="`Dk)9GcR#RLvZ20C|?tC">
+                  <field name="BOOL">TRUE</field>
+                </block>
+              </value>
+              <next>
+                <block type="whenClicked" id="ZSW.NmA*+6A.Z.QbtVAC">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+                  <field name="X_RAY">FALSE</field>
+                  <field name="DOUBLE_CLICK">FALSE</field>
+                  <field name="LEFT_BUTTON">TRUE</field>
+                  <field name="MIDDLE_BUTTON">TRUE</field>
+                  <field name="RIGHT_BUTTON">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="objectList" id="[le$VzzGKKsAIh217w,r">
+                      <field name="FIELDNAME">Fogao</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="variables_set" id="kFxM+|CQ7+{GEv0@beRM">
+                      <field name="VAR" id="8s$3nxJg2!|$`!188brE">movelSelecionado</field>
+                      <value name="VALUE">
+                        <block type="logic_boolean" id="uBEBt#og@1|^#$cV(OB0">
+                          <field name="BOOL">TRUE</field>
+                        </block>
+                      </value>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setObjTransform" id="QzvbhV@r7=,V,]EHXR~)" x="-703" y="440">
+      <field name="MODE">position</field>
+      <field name="OFFSET">FALSE</field>
+      <value name="TARGETOBJ">
+        <shadow type="objectList" id="t]Sdf.:!|IR8@USbmkt6">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenDraggedOver" id="?_H:;08+:P^$a-ZTyRSF" x="-610" y="630">
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="?1NO:/1~UpgL)QtAJl5P">
+          <field name="FIELDNAME">Fogao</field>
+        </shadow>
+      </value>
+      <statement name="DO_MOVE">
+        <block type="dragMove" id="OM79/KpS65EwTF-jx*;G">
+          <field name="MODE">X</field>
+          <value name="TARGETOBJ">
+            <shadow type="objectList" id="PFKAs6lfsf#;dfz,UqT{">
+              <field name="FIELDNAME">Fogao</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="dragMove" id=":LG{}xUHT3/Sx#8#j}+W">
+              <field name="MODE">Y</field>
+              <value name="TARGETOBJ">
+                <shadow type="objectList" id="8NXeT*$FSgCGks|Li:8-">
+                  <field name="FIELDNAME">Fogao</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1139.53515625" viewport-y="28" viewport-w="762.465" viewport-h="629.125" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
